@@ -59,7 +59,7 @@ useEffect(() => {
                  <h4 className="card-title">{n.title.substring(0, 30)}... </h4 >
                   <div className="card-body" >
                   
-                    <p className="card-text" style={{overflow:"hidden" }}>{HTMLReactParser(n.discription.substring(0, 90))}</p>
+                    <p className="card-text" style={{overflow:"hidden" }}>{HTMLReactParser(n.discription.substring(0, 60))}</p>
                     
                   </div>
                   </Link> 
